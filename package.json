@@ -1,0 +1,21 @@
+{
+  "name": "markdown-writing-utils",
+  "version": "1.0.0",
+  "description": "A library of tools useful for markdown authoring",
+  "main": "index.js",
+  "author": "James Calcaben <jcalcaben+github@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "/packages/*"
+  ],
+  "scripts": {
+    "prettier": "prettier --write '@(packages|scripts)/**/*.@(css|graphql|js)' '*.js'",
+    "prettier:check": "prettier --list-different '@(packages|scripts)/**/*.@(css|graphql|js)' '*.js'",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "prettier": "2.0.5"
+  }
+}
