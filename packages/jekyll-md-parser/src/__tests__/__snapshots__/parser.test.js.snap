@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parse normal markdown 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 11,
+              "line": 2,
+              "offset": 11,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 3,
+              "line": 2,
+              "offset": 3,
+            },
+          },
+          "type": "text",
+          "value": "Header 1",
+        },
+      ],
+      "depth": 1,
+      "position": Position {
+        "end": Object {
+          "column": 11,
+          "line": 2,
+          "offset": 11,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "heading",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 7,
+              "line": 4,
+              "offset": 19,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 4,
+              "offset": 13,
+            },
+          },
+          "type": "text",
+          "value": "Hello ",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "position": Position {
+                "end": Object {
+                  "column": 14,
+                  "line": 4,
+                  "offset": 26,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 9,
+                  "line": 4,
+                  "offset": 21,
+                },
+              },
+              "type": "text",
+              "value": "World",
+            },
+          ],
+          "position": Position {
+            "end": Object {
+              "column": 16,
+              "line": 4,
+              "offset": 28,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 7,
+              "line": 4,
+              "offset": 19,
+            },
+          },
+          "type": "strong",
+        },
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 17,
+              "line": 4,
+              "offset": 29,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 16,
+              "line": 4,
+              "offset": 28,
+            },
+          },
+          "type": "text",
+          "value": "!",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 17,
+          "line": 4,
+          "offset": 29,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 4,
+          "offset": 13,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 17,
+      "line": 4,
+      "offset": 29,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;

@@ -1,6 +1,19 @@
 const unified = require('unified')
-const remark = require('remark')
+const parser = require('remark-parse')
+const vfile = require('vfile');
 
 test("Parse normal markdown", () => {
-    expect(true).toBe(true);
+    const input = `
+# Header 1
+
+Hello **World**!`
+
+    const file = vfile({
+        path: './example.md',
+        contents: input
+    })
+
+    const tree = unified().use(parser).parse(file);
+
+    expect(tree).toMatchSnapshot();
 })
