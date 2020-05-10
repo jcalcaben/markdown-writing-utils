@@ -1,3 +1,5 @@
+const {looksLikeDefinition, containsLiquid} = require('./util')
+
 function parser(config) {
     const Parser = this.Parser
     const blockTokenizers = Parser.prototype.blockTokenizers;
