@@ -35,5 +35,4 @@ const locateLiquid = (value, fromIndex) => {
 tokenizeLiquid.notInLink = false
 tokenizeLiquid.locator = locateLiquid
 
-
 module.exports = parser;
