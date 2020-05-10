@@ -10,8 +10,8 @@
     "packages/*"
   ],
   "scripts": {
-    "prettier": "prettier --write '@(packages|scripts)/**/*.@(css|graphql|js)' '*.js'",
-    "prettier:check": "prettier --list-different '@(packages|scripts)/**/*.@(css|graphql|js)' '*.js'",
+    "prettier": "prettier --write '@(packages|scripts)/**/*.@(css|graphql|js)'",
+    "prettier:check": "prettier --list-different '@(packages|scripts)/**/*.@(css|graphql|js)'",
     "test": "jest"
   },
   "devDependencies": {

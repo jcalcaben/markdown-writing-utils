@@ -1,3 +1,3 @@
-const parser = require('./src/parser')
+const parser = require("./src/parser");
 
 module.exports = parser;
