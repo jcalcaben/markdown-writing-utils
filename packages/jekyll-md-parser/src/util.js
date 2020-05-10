@@ -1,5 +1,5 @@
 const looksLikeDefinition = str => {
-    const regex = /^\[[^\]+]:/
+    const regex = /\[([^\]]+)\]:\s?/g
 
     return regex.exec(str);
 

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jekyll link 1`] = `
+Array [
+  "[jekyll link]: ",
+  "jekyll link",
+]
+`;
+
+exports[`Jekyll link 2`] = `
+Array [
+  "{%link file/location/index.md %}",
+  "%link file/location/index.md %",
+]
+`;
+
+exports[`Jekyll variable 1`] = `
+Array [
+  "[jekyll variable]: ",
+  "jekyll variable",
+]
+`;
+
+exports[`Jekyll variable 2`] = `
+Array [
+  "{site.baseurl}",
+  "site.baseurl",
+]
+`;
+
+exports[`Normal definition 1`] = `
+Array [
+  "[link definition]: ",
+  "link definition",
+]
+`;
